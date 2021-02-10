@@ -62,7 +62,7 @@ namespace CinemaPriceCalculator
 
                     }
 
-                if (tickets[i].isPremiumTicket && ticketPrice>0)
+                if (tickets[i].isPremiumTicket)
                 {
                     if (isStudentOrder)
                     {
